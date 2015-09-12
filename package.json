@@ -4,7 +4,9 @@
   "description": "provides the lodur duebendorf entries in json format",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "mocha test --recursive",
+    "test-node": "mocha -R spec ./dist/"
   },
   "keywords": [
     "lodur",
@@ -20,6 +22,10 @@
     "moment": "^2.10.6",
     "q": "^1.4.1",
     "request": "^2.61.0",
-    "string": "^3.3.1"
+    "string": "^3.3.1",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.2"
   }
 }

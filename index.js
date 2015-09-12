@@ -10,7 +10,6 @@ require('iconv-lite').extendNodeEncodings();
 var express = require('express');
 var router = express.Router();
 var app = express();
-var utf8 = require('utf8');
 
 
 app.get('/', function(req, res) {

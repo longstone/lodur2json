@@ -1,6 +1,7 @@
 {
   "name": "lodur-duebendorf2json",
   "version": "1.0.0",
+  "repository":"https://github.com/longstone/lodur2json",
   "description": "provides the lodur duebendorf entries in json format",
   "main": "index.js",
   "scripts": {
@@ -23,7 +24,8 @@
     "q": "^1.4.1",
     "request": "^2.61.0",
     "string": "^3.3.1",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "utf8": "^2.1.1"
   },
   "devDependencies": {
     "mocha": "^2.3.2"
